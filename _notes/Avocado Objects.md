@@ -1,12 +1,13 @@
-# Avocado Objects
-
 ![Avocado](../assets/avocado.png)
 
 ## Rationale
 
-Have you ever felt that your function has a lot of load that is not contributing exactly to the core functionality?  
-Caching, Logging, Assertions, Exception Handling are some layers that fog the core functionality.  
-Avocado Object principle tends to declutter core functionality putting supporting features in different layers.  
+Have you ever felt that your function has a lot of load  
+not exactly contributing to the core functionality?  
+Caching, Logging, Assertions, Exception Handling -  
+are some layers that fog the core functionality.  
+Avocado Object principle tends to declutter core functionality,  
+putting supporting features in different layers.  
 
 ## What is Avocado Object?
 
@@ -33,7 +34,7 @@ in exceptional cases - from the other layers.
 ### Disadvantages
 
 - Factory Methods/Factories are needed
-- Design becomes less simple
+- Design becomes more complex
 
 ## Example
 
