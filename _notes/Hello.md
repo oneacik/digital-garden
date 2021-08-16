@@ -1,3 +1,6 @@
+---
+---
+
 # Hello
 I created this digital garden to create a cohesive version of myself.  
 It will contain tips how to remove duplication in our thinking patterns.
@@ -12,5 +15,5 @@ We will dwelve deep into your conscience until we get on the other side.
 [Fasten your seatbelts](https://www.youtube.com/watch?v=UINhE8L1yXg).
 
 Go to a nearest stop:  
-[Architecture](Architecture.md)  
-[Books](Books/Books.md)  
+[Architecture](./architecture)  
+[Books](./books/books)  
