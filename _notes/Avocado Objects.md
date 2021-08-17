@@ -30,16 +30,15 @@ in exceptional cases - from the other layers.
 
 ### Advantages
 
-- Core functionality is more visible
-- Code is more flexible
-- Layering approach allows enforcing different laws for each layer (refer to ArchUnit and LayerSuperType)
-- Clean Code/Architecture is enforced by decorator boundaries
-- Self Similarity if enforced globally
+- Core functionality is more visible and simpler
+- Code is more flexible, easy to maintenance.
+- Different laws can be applied to different layers
+- Different modules are easier to interpret because of the common pattern
 
 ### Disadvantages
 
-- Factory Methods/Factories are needed
-- Design becomes more complex
+- More code
+- More complexity
 
 ## Example
 
@@ -333,15 +332,22 @@ class AttachmentToContextRendererGuard(val decorated: AttachmentToContextRendere
 
 From 50 lines of code we got like a 80 lines now.  
 Was it worth it?  
-Some may say it is horrible approach and adds lot of mental load.
-From my perspective the code, nevertheless, is structured better.  
+Some may say it is horrible approach and adds a lot of mental load.
+From my perspective the code is structured better.  
 It is predictable - we can expect what will be found in seperated classes.  
 This pattern is easily reusable allowing us to be familiar with different parts of the application.  
 
-What's more important for me though is permissiveness of this pattern.  
-Once you start use it you either drop it or go with it.  
-It allows you to create rules to enforce different layers of Avocado.  
-For example, you can allow usage of cache classes only in -Cache named classes.  
-(For this you can use ArchUnit or other architecture testing framework)  
-It enforces you to use small, flexible classes, that makes your app harder,  
-but more easily bending to your needs.
+What's more important, using this pattern teaches us how to code.  
+It enforces us to create small, decorable classes that are easy to configure.  
+We can see where we need to split class, where we can't easily decorate it -  
+finding the golden line between too small and too big classes.  
+Applied globally, it allows us to find common functionalities for each layer.  
+We can also enforce rules differently for each layer (e.g using ArchUnit) -  
+permitting usage only of needed functionality (like caching utilities in caching layer).
+
+In my opinion if you are creating a small application, then this approach is not for you.  
+Core functionality will be visible at first hand, even with some seldom supporting code.  
+However, if you are thriving to grow, then you will need some hard foundation.  
+Creating classes fogged by supportive functionality will slow you down and nest bugs.  
+Creating well-structured objects will highlight important contexts and speed you up.  
+Going enterprise? - use this pattern.
