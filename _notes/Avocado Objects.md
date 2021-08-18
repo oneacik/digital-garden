@@ -350,4 +350,4 @@ Core functionality will be visible at first hand, even with some seldom supporti
 However, if you are thriving to grow, then you will need some hard foundation.  
 Creating classes fogged by supportive functionality will slow you down and nest bugs.  
 Creating well-structured objects will highlight important contexts and speed you up.  
-Going enterprise? - use this pattern.
+Going enterprise? - think about this pattern.
