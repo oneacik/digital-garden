@@ -12,6 +12,9 @@ permalink: /
   To explore my digital garden - take a look at <span style="font-weight: bold">[[Hello]]</span> 
 </p>
 
+<p>
+  Want to share knowledge with me, or be mentored? Go <a href="./knowledge">here</a>.
+</p>
 
 <style>
   .wrapper {
