@@ -14,6 +14,11 @@ We will dwelve deep into your conscience until we get on the other side.
 
 [Fasten your seatbelts](https://www.youtube.com/watch?v=UINhE8L1yXg).
 
+See some of my random blogs:  
+[Avocado Objects - Layered Decoration](./avocado-objects)  
+[Compiler and Linker - ABI; .o, .h files](./compiling-and-linking)  
+
+
 Go to a nearest stop:  
 [Architecture](./architecture)  
 [Books](./books/books)  
