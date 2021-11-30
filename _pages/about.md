@@ -8,7 +8,7 @@ permalink: /about
 
 Hello.
 
-My name is Piotr Suwała.
+My name is Piotr Suwała. 
 I'm a programmer since childhood and I have worked in remarkable companies such:
 
 - Samsung
@@ -25,7 +25,7 @@ Those made me realise that what I appreciate is:
 - Living my life with goal of being happy and making others too
 - Holding my colors
 
-I love to develop my knowledge by reading and trying.
+I love to develop my knowledge by reading and trying.  
 My favorite (and impactful) career-related books I read were:
 
 - Lean Startup
@@ -34,7 +34,7 @@ My favorite (and impactful) career-related books I read were:
 - Implementing DDD
 - Clean Architecture
 
-To try my knowledge in practice I not only used it in my daily work,
+To try my knowledge in practice I not only used it in my daily work,  
 but also introduced it into my side projects:
 
 - Pandemonium
@@ -53,7 +53,7 @@ In addition to being a programmer I'm also:
 
 I usually attend meetups as a speaker.  
 I'm preparing to challenge bigger conferences soon.  
-Check all my appearances and topics here: TODO
+Check all my appearances and topics here: TODO.  
 All my presentations are open and free, browse them <a href="https://gitlab.com/oneacik/lifecycle/-/tree/master/prezentacje%20i%20warsztaty/presentation">here</a>.
 
 ### Manager
@@ -84,6 +84,7 @@ Currently my objectives are:
 - Grow my network with people I could mentor and be mentored
 - Create a cohesive coding approach which connects business objectives with great architecture
 - Find a role where I could be a craftsman creating excellent project and develop new approaches to software development
+- Have time to create my side projects and develop my local community
 
 If you see any goals we have in common then feel free to contact me: +48662117872.  
 Don't be afraid to use my time.
