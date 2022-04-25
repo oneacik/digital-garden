@@ -12,7 +12,7 @@ jobs:
       uses: actions/checkout@v2
     - name: Checkout submodules
       run: git submodule update --init --recursive --remote
+    - name: commit 
+      run: git commit -a -m 'Updated Submodules'
     - name: push
-      uses: actions-x/commit@v2
-      with:
-        message: "Updated submodules"
+      run: git push origin master
